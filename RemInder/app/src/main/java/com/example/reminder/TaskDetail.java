@@ -17,6 +17,8 @@ public class TaskDetail extends AppCompatActivity {
     private static final String KEY_INDEX = "index";
     private long taskId;
     private TaskAdapter taskAdapter;
+    private EditText textViewTitle;
+    private EditText textViewDesc;
 
 
 
@@ -40,12 +42,12 @@ public class TaskDetail extends AppCompatActivity {
             if (taskId == -1) finish();
             Task task = Database.getInstance(this).getTaskDao().getById(taskId);
 
-            TextView textViewTitle = findViewById(R.id.textViewTitle);
-            TextView textViewDesc = findViewById(R.id.textViewDesc);
+            this.textViewTitle = findViewById(R.id.textViewTitle);
+            this.textViewDesc = findViewById(R.id.textViewDesc);
 
 
-            textViewTitle.setText(task.getTaskName());
-            textViewDesc.setText(task.getTaskText());
+            this.textViewTitle.setText(task.getTaskName());
+            this.textViewDesc.setText(task.getTaskText());
 
         } else {
             finish();
@@ -59,6 +61,17 @@ public class TaskDetail extends AppCompatActivity {
     public void Main(View view){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+
+    }
+    public void updateTask(View view){
+        String name = this.textViewTitle.getText().toString();
+        String text = this.textViewDesc.getText().toString();
+
+        Task taskClass = new Task(0,name,text);
+        Database.getInstance(this).getTaskDao().update(taskClass);
+
+        finish();
+
 
     }
 }

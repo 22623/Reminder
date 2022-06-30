@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class Cal_detail extends AppCompatActivity {
@@ -14,6 +15,9 @@ public class Cal_detail extends AppCompatActivity {
     private static final String KEY_INDEX = "index";
     private long calId;
     private CalAdapter calAdapter;
+    private EditText textViewTitle;
+    private EditText textViewDesc;
+    private TextView textViewDate;
 
 
     public static void onStartCal(Context context, long calId){
@@ -31,14 +35,14 @@ public class Cal_detail extends AppCompatActivity {
             if (calId == -1) finish();
             Cal cal = Database.getInstance(this).getCalDao().getById(calId);
 
-            TextView textViewTitle = findViewById(R.id.Name_Cal_detail);
-            TextView textViewDesc = findViewById(R.id.Desc_Cal_Detail);
-            TextView textViewDate = findViewById(R.id.Date_Cal_Detail);
+            this.textViewTitle = findViewById(R.id.Name_Cal_detail);
+            this.textViewDesc = findViewById(R.id.Desc_Cal_Detail);
+            this.textViewDate = findViewById(R.id.Date_Cal_Detail);
 
 
-            textViewTitle.setText(cal.getCalName());
-            textViewDesc.setText(cal.getCalText());
-            textViewDate.setText(cal.getCalDate());
+            this.textViewTitle.setText(cal.getCalName());
+            this.textViewDesc.setText(cal.getCalText());
+            this.textViewDate.setText(cal.getCalDate());
 
         } else {
             finish();
@@ -55,5 +59,17 @@ public class Cal_detail extends AppCompatActivity {
         Intent intent = new Intent(this, CalRecy.class);
         startActivity(intent);
 
+    }
+    public void updateCal(View v){
+        String date = this.textViewTitle.getText().toString();
+        String name = this.textViewDesc.getText().toString();
+        String text = this.textViewDate.getText().toString();
+
+
+        Cal calClass = new Cal(0,text,date,name);
+
+        Database.getInstance(this).getCalDao().update(calClass);
+
+        finish();
     }
 }
