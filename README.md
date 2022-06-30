@@ -41,7 +41,10 @@
     -Deformações esporádicas do calendário.
     -Excesso de botões.               (Corrigido) // Numa versão anterior a aplicação tinha 4 botões na parte inferior em vez de 2:
  ![image](https://user-images.githubusercontent.com/92276078/176796655-7f29264c-8588-41a1-8b49-5c86c642af87.png)
-(Exemplo de versão anterior)
+ ![image](https://user-images.githubusercontent.com/92276078/176796709-e1294298-a68c-4295-a102-0b22d45e87d2.png)
+
+ 
+(Exemplos de versão anterior)
 
 
 
