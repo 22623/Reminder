@@ -3,12 +3,14 @@
 
   Funcionalidades implementadas nesta fase do projeto:
   
-    -Login e Registo do utilizador: O utilizador pode criar contas na aplicação e aceder aos seus dados após efetuar corretamento o login.
+    -Login e Registo do utilizador: O utilizador pode criar contas na aplicação e aceder aos seus dados após efetuar corretamente o login.
     
       -Criação de Notas/Tasks: Possibilidade de criar notas, com título e descrição vísiveis no respetivo ecrã dentro da aplicação.
         Nota: O utilizador pode eliminar as notas criadas anteriormente, após pressionar brevemente uma task, surgirá uma janela de confirmação desta ação.
         
-      -Marcação de Eventos(Timetables): Nesta cadegoria, para além de título e descrição o utilizador também tem a possíbilidade de 
+      -Marcação de Eventos(Timetables): Nesta cadegoria, para além de título e descrição o utilizador também tem a possíbilidade de escolher
+      no calendário o dia  em que se realizam os eventos a não esquecer.
+        Nota: O utilizador pode eliminar os eventos criados anteriormente, após pressionar um brevemente, surgirá uma janela de confirmação desta ação.
       
     -Desenho, composição e organização dos ecrãs necessários para o devido funcionamento devido da aplicação.
     
@@ -16,6 +18,31 @@
     
     -Tornamos os botões coloridos e intitulamos os ecrãs para uma mais fácil navegação e perceção do ecrã em que se encontra o utilizador.
     
-    -
+    -Adicionámos o nosso logotipo à aplicação para android.
+    
+    -Tornamos o botão de retorno funcional.
+    
+  Sugestões dos grupos dos colegas de turma:
+  
+    Rodrigo, Bruno e Dinis:
+      -Baixo contraste das cores.
+      -Seta de retorno não funciona.
+      -Calendário sofre deformações esporádicamente.
+      -Data não funciona aparece fora dos detalhes.
+      -Nomes confusos.
+      
+    David e Luís:
+      -Títulos para definir os ecrãs.   (Corrigido)
+      -Orientação da navegação.         (Corrigido) //Adicionamos diferentes corres aos botões associados ao respetivo ecrã (Timetables e Tasks).
+      -Deformações esporádicas do calendário.
+      -Excesso de botões.               (Corrigido) //Numa versão anterior a aplicação tinha 4 botões na parte inferior em vez de 2: ![image](https://user-images.githubusercontent.com/92276078/176793679-6ebf5e19-d954-404c-8a74-0141b002f464.png)
+
+  Propostas de trabalho futuro:
+
+
+
+
+
+
   
 
