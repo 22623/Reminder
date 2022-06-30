@@ -40,7 +40,7 @@
     -Orientação da navegação.         (Corrigido) // Adicionamos diferentes corres aos botões associados ao respetivo ecrã (Timetables e Tasks).
     -Deformações esporádicas do calendário.
     -Excesso de botões.               (Corrigido) // Numa versão anterior a aplicação tinha 4 botões na parte inferior em vez de 2:
- ![image](https://user-images.githubusercontent.com/92276078/176793679-6ebf5e19-d954-404c-8a74-0141b002f464.png)
+ ![image](https://user-images.githubusercontent.com/92276078/176796655-7f29264c-8588-41a1-8b49-5c86c642af87.png)
 (Exemplo de versão anterior)
 
 
