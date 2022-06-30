@@ -58,5 +58,14 @@
   Conclusão:
   
   Com este projetos aprendemos a gerenciar melhor layouts, trabalhar em equipa remotamente, criar adapters para cada entity e também aprofundamos os nossos conhecimentos anteriormente adquiridos nas aulas.
-  Pretendemos levar este projeto mais a diante no futuro para podermos continuar a melhorar as nossas capacidades de trabalho.
-
+  Pretendemos levar este projeto mais adiante no futuro para podermos continuar a melhorar as nossas capacidades de trabalho.
+  Um agradecimento especial aos colegas e professores que partilharam os seus conhecimentos conosco.
+  
+  Obrigado!
+  
+  
+  
+  Trabalho Realizado por:
+  Duarte Mira         22644
+  José Luís Valverde  22623
+  Disciplina: Programação de Aplicação Descktop   //  TWDM ESSTIG 2022
