@@ -6,10 +6,11 @@ import android.content.Context;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-@androidx.room.Database(entities = {Task.class,Cal.class}, version = 1)
+@androidx.room.Database(entities = {Task.class,Cal.class,User.class}, version = 1)
 public abstract class Database extends RoomDatabase {
     public abstract TaskDao getTaskDao();
     public abstract CalDao getCalDao();
+    public abstract UserDao getUserDao();
 
 
 
