@@ -29,11 +29,11 @@
   Sugestões dos grupos dos colegas de turma:
   
     Rodrigo, Bruno e Dinis:
-    -Baixo contraste das cores.       (Corrigido) // Títulos a  preto (anteriormente entavam a branco).
-    -Seta de retorno não funciona.    (Corrigido) // Anteriormente era apenas uma imagem.
+    -Baixo contraste das cores.                     (Corrigido) // Títulos a  preto (anteriormente entavam a branco).
+    -Seta de retorno não funciona.                  (Corrigido) // Anteriormente era apenas uma imagem.
     -Calendário sofre deformações esporádicamente.
-    -Data não funciona aparece fora dos detalhes.
-    -Nomes confusos.
+    -Data não funciona aparece fora dos detalhes.   (Corrigido) // Correção de um erro de código que bloqueava esta ação.
+    -Nomes confusos.                                (Corrigido)
       
     David e Luís:
     -Títulos para definir os ecrãs.   (Corrigido)
@@ -47,10 +47,8 @@
 
 
   Propostas de trabalho futuro:
-  
-   -Possibilitar a edição de matérias já criadas. Atualmente o utilizador tem de elimitar uma nota ou evento e criar um novo para procceder à sua edição.
    
-   -Adicionar notificações com antecedência personalizável, texto, som e vibração.   (fundamental)
+   -Adicionar notificações com antecedência personalizável, texto, som e vibração.
    
    -Adicionar Alarmes (Funcionalidade semelhante às notificações porém com duração sonora até serem silenciados pelo utilizador.
 
