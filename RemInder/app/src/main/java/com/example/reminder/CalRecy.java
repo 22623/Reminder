@@ -47,8 +47,8 @@ public class CalRecy extends AppCompatActivity implements CalAdapter.CalAdapterE
     public void onCalLongClicked(long calId) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this, R.style.alertDialog);
 
-        builder.setTitle("Delete Task");
-        builder.setMessage("Do you really want to delete this Task?");
+        builder.setTitle("Delete Timetable");
+        builder.setMessage("Do you really want to delete this Timetable?");
 
         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             @Override

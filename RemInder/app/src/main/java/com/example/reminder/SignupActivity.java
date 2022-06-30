@@ -22,21 +22,21 @@ public class SignupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-        viewInitializations();
+       /* viewInitializations();*/
     }
 
-    void viewInitializations() {
+   /* void viewInitializations() {
 
         this.emailEdit = findViewById(R.id.emailEdit);
         this.passEdit = findViewById(R.id.passEdit);
         this.rePassEdit = findViewById(R.id.rePassEdit);
 
         // To show back button in actionbar
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    }
+       getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }*/
 
     boolean validateInput() {
-        if (emailEdit.getText().toString()) {
+        if (emailEdit.getText().toString().equals("")) {
             emailEdit.setError("Please Enter Email");
             return false;
         }
@@ -87,6 +87,10 @@ public class SignupActivity extends AppCompatActivity {
             String email = emailEdit.getText().toString();
             String password = passEdit.getText().toString();
             String repeatPassword = rePassEdit.getText().toString();
+
+            User userClass = new User(0,email,password);
+
+            Database.getInstance(this).getUserDao().insert(userClass);
 
             Toast.makeText(this,"Login Success",Toast.LENGTH_SHORT).show();
 
