@@ -12,7 +12,8 @@ public class LoginManager {
             users = new HashMap<>();
             users.put("22623@stu.ipbeja.pt", new User(1, "22623@stu.ipbeja.pt", "22623"));
             users.put("22644@stu.ipbeja.pt", new User(2, "22644@stu.ipbeja.pt", "22644"));
-            users.put("",new User(0,"",""));
+            users.put("Admin", new User(2, "Admin", "admin"));
+
         }
         return users;
     }

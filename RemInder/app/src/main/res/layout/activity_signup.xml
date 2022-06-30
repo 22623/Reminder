@@ -59,7 +59,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/emailEdit"
         app:layout_constraintStart_toStartOf="@+id/emailEdit"
         app:layout_constraintTop_toBottomOf="@+id/emailEdit" />
@@ -71,7 +71,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Re-Passsword"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/passEdit"
         app:layout_constraintStart_toStartOf="@+id/passEdit"
         app:layout_constraintTop_toBottomOf="@+id/passEdit" />
