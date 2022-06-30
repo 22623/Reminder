@@ -46,13 +46,17 @@
 
 
   Propostas de trabalho futuro:
-    -Possibilitar a edição de matérias já criadas. Atualmente o utilizador tem de elimitar uma nota ou evento e criar um novo para procceder à sua edição.
-    -Adicionar notificações com antecedência personalizável, texto, som e vibração.   (fundamental)
-    -Adicionar Alarmes (Funcionalidade semelhante às notificações porém com duração sonora até serem silenciados pelo utilizador.
+  
+   -Possibilitar a edição de matérias já criadas. Atualmente o utilizador tem de elimitar uma nota ou evento e criar um novo para procceder à sua edição.
+   
+   -Adicionar notificações com antecedência personalizável, texto, som e vibração.   (fundamental)
+   
+   -Adicionar Alarmes (Funcionalidade semelhante às notificações porém com duração sonora até serem silenciados pelo utilizador.
 
 
 
   Conclusão:
+  
   Com este projetos aprendemos a gerenciar melhor layouts, trabalhar em equipa remotamente, criar adapters para cada entity e também aprofundamos os nossos conhecimentos anteriormente adquiridos nas aulas.
   Pretendemos levar este projeto mais a diante no futuro para podermos continuar a melhorar as nossas capacidades de trabalho.
 
