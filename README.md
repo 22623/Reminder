@@ -24,20 +24,21 @@
     
   Sugestões dos grupos dos colegas de turma:
   
-   Rodrigo, Bruno e Dinis:
-      -Baixo contraste das cores.       (Corrigido) //títulos a  preto (anteriormente entavam a branco).
-      -Seta de retorno não funciona.
-      -Calendário sofre deformações esporádicamente.
-      -Data não funciona aparece fora dos detalhes.
-      -Nomes confusos.
+    Rodrigo, Bruno e Dinis:
+    -Baixo contraste das cores.       (Corrigido) //títulos a  preto (anteriormente entavam a branco).
+    -Seta de retorno não funciona.
+    -Calendário sofre deformações esporádicamente.
+    -Data não funciona aparece fora dos detalhes.
+    -Nomes confusos.
       
-  David e Luís:
-   -Títulos para definir os ecrãs.   (Corrigido)
-   -Orientação da navegação.         (Corrigido) //Adicionamos diferentes corres aos botões associados ao respetivo ecrã (Timetables e Tasks).
-   -Deformações esporádicas do calendário.
-   -Excesso de botões.               (Corrigido) //Numa versão anterior a aplicação tinha 4 botões na parte inferior em vez de 2:
+    David e Luís:
+    -Títulos para definir os ecrãs.   (Corrigido)
+    -Orientação da navegação.         (Corrigido) //Adicionamos diferentes corres aos botões associados ao respetivo ecrã (Timetables e Tasks).
+    -Deformações esporádicas do calendário.
+    -Excesso de botões.               (Corrigido) //Numa versão anterior a aplicação tinha 4 botões na parte inferior em vez de 2:
  ![image](https://user-images.githubusercontent.com/92276078/176793679-6ebf5e19-d954-404c-8a74-0141b002f464.png)
 (Exemplo de versão anterior)
+
   Propostas de trabalho futuro:
     -
 
