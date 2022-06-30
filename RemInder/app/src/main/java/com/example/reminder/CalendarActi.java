@@ -53,4 +53,7 @@ public class CalendarActi extends AppCompatActivity {
 
         finish();
     }
+    public void cancelCal(View view){
+        finish();
+    }
 }

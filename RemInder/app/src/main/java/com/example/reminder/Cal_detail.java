@@ -72,4 +72,7 @@ public class Cal_detail extends AppCompatActivity {
 
         finish();
     }
+    public void cancelCal(View view){
+        finish();
+    }
 }

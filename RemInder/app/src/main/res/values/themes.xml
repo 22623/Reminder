@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.RemInder" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/yellowPalet</item>
-        <item name="colorPrimaryVariant">@color/yellowdark</item>
+        <item name="colorPrimary">@color/yellowtest</item>
+        <item name="colorPrimaryVariant">@color/yellowtest </item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -12,7 +12,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="windowActionBar">false</item>
+        <item name="windowActionBar">true</item>
         <item name="windowNoTitle">true</item>
     </style>
     <style name="White_Reminder" parent="Theme.MaterialComponents.DayNight.DarkActionBar">

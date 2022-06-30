@@ -74,4 +74,7 @@ public class TaskDetail extends AppCompatActivity {
 
 
     }
+    public void cancelTask(View view){
+        finish();
+    }
 }
