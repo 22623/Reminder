@@ -1,5 +1,7 @@
 # Reminder!!
   O projeto Reminder surgiu para ajudar pessoas com dificuldades de memória a não falharem nenhuma das suas tarefas ou compromissos pessoais e profissionais, dando-lhes  a possibilidade de guardar tudo o que necessitarem num só lugar.
+  
+  
 
   Funcionalidades implementadas nesta fase do projeto:
   
@@ -21,31 +23,36 @@
    -Adicionámos o nosso logotipo à aplicação para android.
     
    -Tornamos o botão de retorno funcional.
+   
+   
     
   Sugestões dos grupos dos colegas de turma:
   
     Rodrigo, Bruno e Dinis:
-    -Baixo contraste das cores.       (Corrigido) //títulos a  preto (anteriormente entavam a branco).
-    -Seta de retorno não funciona.
+    -Baixo contraste das cores.       (Corrigido) // Títulos a  preto (anteriormente entavam a branco).
+    -Seta de retorno não funciona.    (Corrigido) // Anteriormente era apenas uma imagem.
     -Calendário sofre deformações esporádicamente.
     -Data não funciona aparece fora dos detalhes.
     -Nomes confusos.
       
     David e Luís:
     -Títulos para definir os ecrãs.   (Corrigido)
-    -Orientação da navegação.         (Corrigido) //Adicionamos diferentes corres aos botões associados ao respetivo ecrã (Timetables e Tasks).
+    -Orientação da navegação.         (Corrigido) // Adicionamos diferentes corres aos botões associados ao respetivo ecrã (Timetables e Tasks).
     -Deformações esporádicas do calendário.
-    -Excesso de botões.               (Corrigido) //Numa versão anterior a aplicação tinha 4 botões na parte inferior em vez de 2:
+    -Excesso de botões.               (Corrigido) // Numa versão anterior a aplicação tinha 4 botões na parte inferior em vez de 2:
  ![image](https://user-images.githubusercontent.com/92276078/176793679-6ebf5e19-d954-404c-8a74-0141b002f464.png)
 (Exemplo de versão anterior)
 
+
+
   Propostas de trabalho futuro:
-    -
+    -Possibilitar a edição de matérias já criadas. Atualmente o utilizador tem de elimitar uma nota ou evento e criar um novo para procceder à sua edição.
+    -Adicionar notificações com antecedência personalizável, texto, som e vibração.   (fundamental)
+    -Adicionar Alarmes (Funcionalidade semelhante às notificações porém com duração sonora até serem silenciados pelo utilizador.
 
 
 
-
-
-
-  
+  Conclusão:
+  Com este projetos aprendemos a gerenciar melhor layouts, trabalhar em equipa remotamente, criar adapters para cada entity e também aprofundamos os nossos conhecimentos anteriormente adquiridos nas aulas.
+  Pretendemos levar este projeto mais a diante no futuro para podermos continuar a melhorar as nossas capacidades de trabalho.
 
