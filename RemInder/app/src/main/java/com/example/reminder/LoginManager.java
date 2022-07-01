@@ -13,6 +13,7 @@ public class LoginManager {
             users.put("22623@stu.ipbeja.pt", new User(1, "22623@stu.ipbeja.pt", "22623"));
             users.put("22644@stu.ipbeja.pt", new User(2, "22644@stu.ipbeja.pt", "22644"));
             users.put("Admin", new User(2, "Admin", "admin"));
+            users.put("User", new User(2, "User", "user"));
 
         }
         return users;
