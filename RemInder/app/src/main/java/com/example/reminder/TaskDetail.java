@@ -17,7 +17,7 @@ public class TaskDetail extends AppCompatActivity {
     private static final String KEY_INDEX = "index";
     private long taskId;
     private TaskAdapter taskAdapter;
-    private Task taskClass;
+
     private EditText textViewTitle;
     private EditText textViewDesc;
 
@@ -68,7 +68,7 @@ public class TaskDetail extends AppCompatActivity {
         String name = this.textViewTitle.getText().toString();
         String text = this.textViewDesc.getText().toString();
 
-        this.taskClass = new Task(0,name,text);
+        Task taskClass = new Task(taskId,name,text);
         Database.getInstance(this).getTaskDao().update(taskClass);
 
         finish();
