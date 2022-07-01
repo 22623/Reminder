@@ -1,6 +1,8 @@
 # Reminder!!
   O projeto Reminder surgiu para ajudar pessoas com dificuldades de memória a não falharem nenhuma das suas tarefas ou compromissos pessoais e profissionais, dando-lhes  a possibilidade de guardar tudo o que necessitarem num só lugar.
   
+  User Predefinido: Admin
+  Password Predefinido: admin
   
 
   Funcionalidades implementadas nesta fase do projeto:
