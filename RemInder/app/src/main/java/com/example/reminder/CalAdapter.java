@@ -39,6 +39,7 @@ public class CalAdapter extends RecyclerView.Adapter<CalAdapter.CalViewHolder> {
 
         holder.setName(cal.getCalName());
         holder.setText(cal.getCalText());
+        holder.setCalDate(cal.getCalDate());
 
         holder.rootView.setOnClickListener(new View.OnClickListener() {
             @Override
