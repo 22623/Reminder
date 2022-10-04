@@ -1,9 +1,9 @@
 # Reminder!!
-  O projeto Reminder surgiu para ajudar pessoas com dificuldades de memória a não falharem nenhuma das suas tarefas ou compromissos pessoais e profissionais, dando-lhes  a possibilidade de guardar tudo o que necessitarem num só lugar.
+  O projeto Reminder surgiu para ajudar pessoas com dificuldades de memória a não falharem nenhuma das suas tarefas ou compromissos pessoais e profissionais, dando-lhes  a possibilidade de guardar tudo o que necessitem num só lugar.
   
   User Predefinido: User
   
-  Password Predefinido: user
+  Password Predefinida: user
   
 
   Funcionalidades implementadas nesta fase do projeto:
@@ -13,7 +13,7 @@
    -Criação de Notas/Tasks: Possibilidade de criar notas, com título e descrição vísiveis no respetivo ecrã dentro da aplicação.
         Nota: O utilizador pode eliminar as notas criadas anteriormente, após pressionar brevemente uma task, surgirá uma janela de confirmação desta ação.
         
-   -Marcação de Eventos(Timetables): Nesta cadegoria, para além de título e descrição o utilizador também tem a possíbilidade de escolher
+   -Marcação de Eventos(Timetables): Nesta categoria, para além de título e descrição o utilizador também tem a possibilidade de escolher
       no calendário o dia  em que se realizam os eventos a não esquecer.
         Nota: O utilizador pode eliminar os eventos criados anteriormente, após pressionar um brevemente, surgirá uma janela de confirmação desta ação.
       
