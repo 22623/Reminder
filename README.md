@@ -19,7 +19,7 @@
       
    -Desenho, composição e organização dos ecrãs necessários para o devido funcionamento devido da aplicação.
     
-   -Ciação de uma bases de Dados local para armazenar os dados do utilizador no dispositivo.
+   -Criação de uma bases de Dados local para armazenar os dados do utilizador no dispositivo.
     
    -Tornamos os botões coloridos e intitulamos os ecrãs para uma mais fácil navegação e perceção do ecrã em que se encontra o utilizador.
     
