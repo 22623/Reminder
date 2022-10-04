@@ -73,4 +73,4 @@
   
   José Luís Valverde  22623
   
-  Disciplina: Programação de Aplicação Descktop   //  TWDM ESSTIG 2022
+  Disciplina: Programação de Aplicação Descktop   //  TWDM ESTIG 2022
