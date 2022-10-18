@@ -47,6 +47,13 @@ public class MainActivity extends AppCompatActivity implements TaskAdapter.TaskA
 
             }
         });
+        viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback(){
+            @Override
+            public void onPageSelected(int position){
+                super.onPageSelected(position);
+                tabLayout.getTabAt(position).select();
+            }
+        });
 
         if (!SessionManager.sessionExists(this)) {
             Intent intent = new Intent(this, LoginActivity.class);
