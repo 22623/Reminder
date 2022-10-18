@@ -1,6 +1,9 @@
 # Reminder!!
-  O projeto Reminder surgiu para ajudar pessoas com dificuldades de memória a não falharem nenhuma das suas tarefas ou compromissos pessoais e profissionais, dando-lhes  a possibilidade de guardar tudo o que necessitarem num só lugar.
+  O projeto Reminder surgiu para ajudar pessoas com dificuldades de memória a não falharem nenhuma das suas tarefas ou compromissos pessoais e profissionais, dando-lhes  a possibilidade de guardar tudo o que necessitem num só lugar.
   
+  User Predefinido: User
+  
+  Password Predefinida: user
   
 
   Funcionalidades implementadas nesta fase do projeto:
@@ -10,13 +13,13 @@
    -Criação de Notas/Tasks: Possibilidade de criar notas, com título e descrição vísiveis no respetivo ecrã dentro da aplicação.
         Nota: O utilizador pode eliminar as notas criadas anteriormente, após pressionar brevemente uma task, surgirá uma janela de confirmação desta ação.
         
-   -Marcação de Eventos(Timetables): Nesta cadegoria, para além de título e descrição o utilizador também tem a possíbilidade de escolher
+   -Marcação de Eventos(Timetables): Nesta categoria, para além de título e descrição o utilizador também tem a possibilidade de escolher
       no calendário o dia  em que se realizam os eventos a não esquecer.
         Nota: O utilizador pode eliminar os eventos criados anteriormente, após pressionar um brevemente, surgirá uma janela de confirmação desta ação.
       
    -Desenho, composição e organização dos ecrãs necessários para o devido funcionamento devido da aplicação.
     
-   -Ciação de uma bases de Dados local para armazenar os dados do utilizador no dispositivo.
+   -Criação de uma bases de Dados local para armazenar os dados do utilizador no dispositivo.
     
    -Tornamos os botões coloridos e intitulamos os ecrãs para uma mais fácil navegação e perceção do ecrã em que se encontra o utilizador.
     
@@ -70,4 +73,4 @@
   
   José Luís Valverde  22623
   
-  Disciplina: Programação de Aplicação Descktop   //  TWDM ESSTIG 2022
+  Disciplina: Programação de Aplicação Descktop   //  TWDM ESTIG 2022

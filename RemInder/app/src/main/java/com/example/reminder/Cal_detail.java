@@ -66,7 +66,7 @@ public class Cal_detail extends AppCompatActivity {
         String text = this.textViewDate.getText().toString();
 
 
-        Cal calClass = new Cal(0,text,date,name);
+        Cal calClass = new Cal(calId,text,date,name);
 
         Database.getInstance(this).getCalDao().update(calClass);
 
