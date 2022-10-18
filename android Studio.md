@@ -3,4 +3,4 @@
  - Alarme : https://developer.android.com/training/scheduling/alarms?hl=pt-br
 - Navegação : https://developer.android.com/guide/navigation/navigation-getting-started?hl=pt-br
 - Seletero de Task : https://developer.android.com/guide/components/activities/tasks-and-back-stack?hl=pt-br
-
+- Número de tasks no dia: https://www.youtube.com/watch?v=VuSDTlk0Fq4
