@@ -17,10 +17,12 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
     private final TaskAdapterEventListener eventListener;
 
     private List<Task> taskList;
+    private Context context;
 
-    public TaskAdapter(TaskAdapter.TaskAdapterEventListener eventListener){
+    public TaskAdapter(TaskAdapterEventListener eventListener, List<Task> taskList, Context context) {
         this.eventListener = eventListener;
         this.taskList = new ArrayList<>();
+        this.context = context;
     }
 
     @NonNull
@@ -34,6 +36,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
     @Override
     public void onBindViewHolder(@NonNull TaskAdapter.TaskViewHolder holder, int position) {
         Task taskClass = this.taskList.get(position);
+
 
         holder.setName(taskClass.getTaskName());
         holder.setText(taskClass.getTaskText());
