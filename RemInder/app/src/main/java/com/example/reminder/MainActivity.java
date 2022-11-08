@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements TaskAdapter.TaskA
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
 
         if (!SessionManager.sessionExists(this)) {
             Intent intent = new Intent(this, LoginActivity.class);
