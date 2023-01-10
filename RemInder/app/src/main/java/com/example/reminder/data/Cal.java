@@ -1,4 +1,4 @@
-package com.example.reminder;
+package com.example.reminder.data;
 
 
 import androidx.room.Entity;

@@ -1,4 +1,4 @@
-package com.example.reminder;
+package com.example.reminder.View;
 
 public class Session {
 

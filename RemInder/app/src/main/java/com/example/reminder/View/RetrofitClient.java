@@ -1,4 +1,6 @@
-package com.example.reminder;
+package com.example.reminder.View;
+
+import com.example.reminder.data.remote.Service;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

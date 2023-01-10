@@ -1,4 +1,4 @@
-package com.example.reminder;
+package com.example.reminder.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,10 @@ import android.util.Patterns;
 import android.view.View;
 
 import android.widget.Toast;
+
+import com.example.reminder.R;
+import com.example.reminder.data.User;
+import com.example.reminder.data.database.Database;
 
 public class SignupActivity extends AppCompatActivity {
 

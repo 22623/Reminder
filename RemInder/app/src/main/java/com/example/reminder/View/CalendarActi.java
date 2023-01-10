@@ -1,4 +1,4 @@
-package com.example.reminder;
+package com.example.reminder.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,10 @@ import android.view.View;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.reminder.R;
+import com.example.reminder.data.Cal;
+import com.example.reminder.data.database.Database;
 
 import java.util.Calendar;
 

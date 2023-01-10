@@ -1,4 +1,6 @@
-package com.example.reminder;
+package com.example.reminder.View;
+
+import com.example.reminder.data.User;
 
 import java.util.HashMap;
 import java.util.Map;

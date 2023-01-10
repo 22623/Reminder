@@ -13,30 +13,30 @@
         android:theme="@style/Theme.RemInder"
         tools:targetApi="31">
         <activity
-            android:name=".SignupActivity"
+            android:name=".View.SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".View.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".Cal_detail"
+            android:name=".View.Cal_detail"
             android:exported="false" />
         <activity
-            android:name=".CalRecy"
+            android:name=".View.CalRecy"
             android:exported="false" />
         <activity
-            android:name=".CalendarActi"
+            android:name=".View.CalendarActi"
             android:exported="false" />
         <activity
-            android:name=".AddTaskH"
+            android:name=".View.AddTaskH"
             android:exported="false"
             />
         <activity
-            android:name=".TaskDetail"
+            android:name=".View.TaskDetail"
             android:exported="false"
             />
         <activity
-            android:name=".MainActivity"
+            android:name=".View.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package com.example.reminder;
+package com.example.reminder.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.reminder.R;
+import com.example.reminder.data.Cal;
+import com.example.reminder.data.database.Database;
 
 public class Cal_detail extends AppCompatActivity {
 

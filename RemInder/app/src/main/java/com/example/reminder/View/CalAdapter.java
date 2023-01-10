@@ -1,4 +1,4 @@
-package com.example.reminder;
+package com.example.reminder.View;
 
 
 import android.content.Context;
@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.reminder.R;
+import com.example.reminder.data.Cal;
 
 import java.util.ArrayList;
 import java.util.List;

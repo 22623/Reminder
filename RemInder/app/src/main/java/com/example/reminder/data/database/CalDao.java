@@ -1,10 +1,12 @@
-package com.example.reminder;
+package com.example.reminder.data.database;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
+
+import com.example.reminder.data.Cal;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.reminder;
+package com.example.reminder.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.reminder.R;
+import com.example.reminder.data.User;
 
 public class LoginActivity extends AppCompatActivity {
 

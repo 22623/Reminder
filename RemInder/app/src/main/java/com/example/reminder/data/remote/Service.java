@@ -1,4 +1,6 @@
-package com.example.reminder;
+package com.example.reminder.data.remote;
+
+import com.example.reminder.data.Task;
 
 import java.util.List;
 

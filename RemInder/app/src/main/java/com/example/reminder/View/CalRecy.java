@@ -1,4 +1,4 @@
-package com.example.reminder;
+package com.example.reminder.View;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +9,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.reminder.R;
+import com.example.reminder.data.Cal;
+import com.example.reminder.data.database.Database;
 
 public class CalRecy extends AppCompatActivity implements CalAdapter.CalAdapterEventListener {
 
